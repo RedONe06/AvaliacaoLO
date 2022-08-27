@@ -6,9 +6,9 @@ package Ex17;
  */
 public class Person {
     private double height;
-    private boolean sex;
+    private int sex;
 
-    public Person(double height, boolean sex) {
+    public Person(double height, int sex) {
         this.height = height;
         this.sex = sex;
     }
@@ -22,10 +22,10 @@ public class Person {
         this.height = height;
     }
 
-    public boolean isSex() {
+    public int getSex() {
         return sex;
     }
-    public void setSex(boolean sex) {
+    public void setSex(int sex) {
         this.sex = sex;
     }
     
